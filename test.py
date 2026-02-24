@@ -1,12 +1,31 @@
-matrix=[
+#exercitiu 1
+"""
+matrix = [
     [1, 2, 3],
-    [4, 5, 6], 
+    [5,2,6], 
     [7, 8, 9]
 ]
 
-crestere=True
+count=0
 
-nume={"ANA", "ION", "MARIA"}
+for row in matrix:
+    increasing = True
+    for i in range(len(row)-1):
+        if row[i]>row[i+1]:
+            increasing=False
+            break
+    if increasing:
+        count+=1
 
-for i in nume:
-    print(i)
+
+print("Numar de randuri crescatoare: ", count)
+
+"""
+#exercitiu 2
+
+matrix = [
+    [1, 2, 3],
+    [5,2,6], 
+    [7, 8, 9]
+]
+
