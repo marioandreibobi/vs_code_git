@@ -5,3 +5,8 @@ matrix=[
 ]
 
 crestere=True
+
+nume={"ANA", "ION", "MARIA"}
+
+for i in nume:
+    print(i)
